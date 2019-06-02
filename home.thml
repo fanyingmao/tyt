@@ -1,0 +1,76 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="baidu-site-verification" content="eE87nJ1yV2" />
+        <title></title>
+        <meta name="description" content="快来跟我一起寻找世纪碑谷吧~" />
+        <meta name="keywords" content="赢销+,微信朋友圈营销,移动营销,游戏化营销,H5互动小游戏,H5小游戏制作,H5游戏模版" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes"/>
+        <meta name="full-screen" content="true"/>
+        <meta name="screen-orientation" content="portrait"/>
+        <meta name="x5-fullscreen" content="true"/>
+        <meta name="360-fullscreen" content="true"/>
+        <meta HTTP-EQUIV="Pragma" CONTENT="no-cache">
+        <meta HTTP-EQUIV="Cache-Control" CONTENT="no-cache">
+        <meta HTTP-EQUIV="Expires" CONTENT="0">
+        <link rel="stylesheet" type="text/css" href="http://static.beetobees.com/dist/css/wx_gamePublic.css?v=201803271441">
+        <style>
+        html, body {
+            -ms-touch-action: none;
+            background: #FFF;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+    </style>
+        <script type="text/javascript">
+        window.gameDebug = 1;
+        window.appversion = 0;
+    </script>
+        <!--调试新版微信分享-->
+        <script style="text/javascript">
+    	document.write("
+            <script src='http://wx.9ria.com/open/auth.php?rnd="+Math.random()+''+"'>
+            </"+"script>");
+        //document.write("
+            <script src='http://wx.9ria.com/api/wechat/auth?rnd="+Math.random()+''+"'>
+            </"+"script>");
+        </script>
+        <!--
+    <script src="http://wx.9ria.com/open/beesdk.php?v=201803271441"></script>
+	-->
+        <script type="text/javascript" src="http://static.beetobees.com/dist/js/wx/main.js?v=201803271441"></script>
+    </head>
+    <body>
+        <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" id="gameDiv"
+             data-entry-class="GameApp"
+             data-orientation="auto"
+             data-scale-mode="fixedWidth"
+             data-frame-rate="30"
+             data-content-width="750"
+             data-content-height="1334"
+             data-show-paint-rect="false"
+             data-multi-fingered="2"
+             data-show-fps="false" data-show-log="false"
+             data-log-filter="" data-show-fps-style="x:0,y:0,size:30,textColor:0x00c200,bgAlpha:0.9">
+        </div>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/egret/egret.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/egret/egret.web.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/game/game.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/game/game.web.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/tween/tween.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/res/res.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/socket/socket.min.js?v=201803271441"></script>
+        <script egret="lib" src="http://static.beetobees.com/dist/js/egret_module/eui/eui.min.js?v=201803271441"></script>
+        <script src="http://static.beetobees.com/dist/js/wx/egretresinit.js?v=201803271441"></script>
+        <script src="http://static.beetobees.com/dist/js/wx/gamecore.js?v=201803271441"></script>
+        <script src="main.min.js?v=201803271441"></script>
+        <script>
+            //默认使用 WebGL 渲染模式
+            egret.runEgret({renderMode: "canvas", audioType: 2});
+        </script>
+    </body>
+</html>
